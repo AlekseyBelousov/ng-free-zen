@@ -1,0 +1,67 @@
+/* Устанавливаем отступы и отступы отступов на ноль */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+footer,
+header,
+nav,
+section,
+summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/* Устанавливаем размер шрифта на ноль */
+html {
+    font-size: 100%;
+}
+
+/* Исправляем отображение блочных элементов */
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+/* Сбрасываем стандартные значения для списков */
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+/* Сбрасываем стандартные значения для ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Сбрасываем значения для инпутов, кнопок и т.д. */
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    *vertical-align: middle; /* поддержка для IE7 и ниже */
+}
+
+/* Очищаем атрибуты связанные с формами */
+button,
+input {
+    line-height: normal;
+}
+
+/* Отключаем стандартное отображение наиболее распространенных флексов и гридов */
+template {
+    display: none;
+}
