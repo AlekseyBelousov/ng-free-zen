@@ -1,67 +1,40 @@
-/* Устанавливаем отступы и отступы отступов на ноль */
-body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  background: none;
+  border: none;
+}
+
+select {
+  border: none;
+  appearance: none;
+}
+
 h1,
 h2,
 h3,
-p,
-ul,
-ol,
-li,
-footer,
-header,
-nav,
-section,
-summary {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-size: inherit;
 }
 
-/* Устанавливаем размер шрифта на ноль */
-html {
-    font-size: 100%;
-}
-
-/* Исправляем отображение блочных элементов */
-footer,
-header,
-nav,
-section {
-    display: block;
-}
-
-/* Сбрасываем стандартные значения для списков */
-ul,
-ol,
-li {
-    list-style: none;
-}
-
-/* Сбрасываем стандартные значения для ссылок */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Сбрасываем значения для инпутов, кнопок и т.д. */
-button,
-input,
-select,
-textarea {
-    margin: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    *vertical-align: middle; /* поддержка для IE7 и ниже */
-}
-
-/* Очищаем атрибуты связанные с формами */
-button,
-input {
-    line-height: normal;
-}
-
-/* Отключаем стандартное отображение наиболее распространенных флексов и гридов */
-template {
-    display: none;
+img {
+  width: 100%;
 }
