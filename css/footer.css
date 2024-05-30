@@ -26,9 +26,9 @@
 }
 
 .footer__copy {
-font-size: 12px;
+  font-size: 12px;
 }
 
 .footer__dev {
-justify-self: center;
+  justify-self: center;
 }
