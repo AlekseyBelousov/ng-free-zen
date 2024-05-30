@@ -2,14 +2,12 @@
   padding: 30px 15px;
 }
 
-.clients__wrapper {
-  display: flex;
-}
+/* .clients__wrapper {} */
 
 .clients__brands {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* .clients__brand {} */
