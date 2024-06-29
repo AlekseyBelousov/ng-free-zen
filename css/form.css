@@ -53,6 +53,9 @@
   cursor: pointer;
   background: #00A1FF;
   border: 2px solid #00A1FF;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/assets/icons/check.svg');
   border-radius: 2px;
   vertical-align: sub;
   margin-right: 5px;
@@ -61,11 +64,12 @@
 #policy:checked::before {
   content: '';
   display: inline-block;
-  width: 11px;
-  height: 11px;
-  background-image: url('/assets/icons/check.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 2px;
   position: absolute;
   top: 50%;
   left: 50%;
